@@ -20,7 +20,7 @@
   position:absolute;
   overflow:hidden;
 }
-.swiper-slide a:before{
+.swiper-slide a::before{
   width:70%; height:700px;
   display:block;
   content:"";
@@ -129,6 +129,10 @@
   font-size:1.25em;
   margin-bottom:50px;
   font-weight:400;
+  line-height:28px;
+}
+.story_wrap > p > br{
+  display:none;
 }
 .story .more_btn{
   bottom:100px;
@@ -146,33 +150,33 @@
 }
 .product > ul > li{
   margin:0 auto;
-  width:500px;
+  width:250px;
   display:flex;
   flex-wrap:wrap;
 }
 .product > ul > li > h3{
   height:24px;
   display:block;
-  width:150px;
   font-size:24px;
-  margin:30px 0;
+  margin:30px auto;
   order:2;
 }
 .product > ul > li > img{
   display:block;
   width:100%;
-  height:500px;
+  height:250px;
   object-fit: cover;
   order:1;
 }
 .product > ul > li > p{
   order:3;
   height:32px;
+  text-align:center;
 }
 .product > ul > li > a{
   background:#EB7C7C;
   order:4;
-  margin:30px 0;
+  margin:40px auto 30px;
 }
 
 /*베스트 서식*/
@@ -182,8 +186,20 @@
   padding:50px 0;
   background:rgba(235,124,124,.2);
 }
-.best > .fas{
+.best .b_wrap .fas{
   display:none;
+  padding:5px 12px;
+  font-size:36px;
+  color:#752329;
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+}
+.best .b_wrap .fa-chevron-left{
+  left:-50px;
+}
+.best .b_wrap .fa-chevron-right{
+  right:-50px;
 }
 .b_list{
   width:1060px;
@@ -199,7 +215,7 @@
   flex-wrap:wrap;
 }
 .b_list > li div{
-  width: 250px; height:250px;
+  width:250px; height:250px;
   order:1;
   overflow:hidden;
 }
@@ -219,18 +235,21 @@
 .b_list > li span{
   order:3;
 }
-
+.btn01{
+  margin:30px auto 0;
+}
 
 /*인스타그램 서식*/
 .instagram{
-  width:1060px;
+  width:720px;
   margin-top:120px;
 }
 .instagram > ul{
   width:100%;
   display:grid;
-  grid-gap:20px;
-  grid-template-columns:repeat(3,340px);
+  grid-gap:10px;
+  grid-template-columns:repeat(3,240px);
+  grid-template-rows:repeat(3,240px);
 }
 
 .instagram > ul > li{
@@ -239,7 +258,7 @@
 
 .instagram > ul > li img{
   width:100%;
-  height:340px;
+  height:240px;
   object-fit: cover;
   transition:.3s;
 }
@@ -251,14 +270,13 @@
 
 /*인스타그램 컨트롤버튼 서식*/
 .instagram .ctrl_btn{
-  display:flex;
+  display:none;
   justify-content:center;
   margin-top:40px;
   grid-gap:0;
-  display:none;
 }
 .instagram .ctrl_btn > li{
-  margin-left:15px;
+  margin-left:8px;
 }.instagram .ctrl_btn > li:first-child{
   margin-left:0;
 }

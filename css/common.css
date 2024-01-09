@@ -50,8 +50,6 @@ h2{
   position:relative;
   z-index:9000;
 }
-.gnb > ul > li{
-}
 .gnb > ul > li > a{
   font-size:16px;
   font-weight:500;
@@ -65,10 +63,11 @@ h2{
   line-height:30px;
   position:absolute;
   display:none;
-  transform:translateX(-20px);
+  transform:translateX(-10px);
+  font-size:14px;
 }
 .gnb li:nth-child(2) .sub{
-  transform:translateX(-28px);
+  transform:translateX(-25px);
 
 }
 .sub a{
@@ -104,7 +103,10 @@ h2{
 
 
 /*푸터 서식*/
-.f_wrap{background:#752329;}
+.f_wrap{
+  background:#752329;
+  position:relative;
+}
 .f_inner{
   width:1060px; height:250px;
   margin:0 auto;
@@ -197,10 +199,15 @@ h2{
   text-align:center;
   color:#fff;
   border-radius:50%;
+  z-index:9999;
 }
 #top_btn .fas{
   display:block;
   position:absolute;
   top:10px;left:50%;
   transform:translateX(-50%);
+}
+.btn_s{
+  position:absolute !important;
+  top:-75px;
 }
