@@ -26,10 +26,10 @@ h2{
 .h_wrap{
   width:100%;
   background:#752329;
-  z-index:9999;
+  z-index:9998;
 }
 .h_inner{
-  width:1060px;
+  width:90%;
   height:60px;
   margin:0 auto;
   display:flex;
@@ -99,7 +99,7 @@ h2{
   z-index:8000;
   display:none;
 }
-
+.gnb .sns_nav, .g_wrap > .fas{display:none;}
 
 
 /*푸터 서식*/
@@ -108,7 +108,7 @@ h2{
   position:relative;
 }
 .f_inner{
-  width:1060px; height:250px;
+  width:90%; height:270px;
   margin:0 auto;
   position:relative;
 }
@@ -121,7 +121,7 @@ h2{
   position:absolute;
   top:35px; right:0;
 }
-.f_inner > .sns_nav a{
+.sns_nav a{
   color:#fff;
   display:inline-block;
   font-size:24px;
@@ -168,6 +168,7 @@ h2{
   background:#EB7C7C;
   padding:2px 5px;
 }
+.f_inner > p:last-child{text-align: center;}
 
 /*버튼 공통서식*/
 .btn01{
@@ -199,7 +200,7 @@ h2{
   text-align:center;
   color:#fff;
   border-radius:50%;
-  z-index:9999;
+  z-index:9998;
 }
 #top_btn .fas{
   display:block;

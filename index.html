@@ -14,6 +14,8 @@
   <link href="./css/main.css" rel="stylesheet" type="text/css">
   <!--5. 태블릿 서식-->
   <link href="./css/tablet.css" rel="stylesheet" type="text/css">
+  <!--6. 모바일 서식-->
+  <link href="./css/mobile.css" rel="stylesheet" type="text/css">
   <!--아이콘폰트 주소-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
@@ -28,6 +30,7 @@
           </a>
         </h1>
 
+        <div class="g_wrap">
         <nav class="gnb">
           <ul>
             <li>
@@ -65,7 +68,14 @@
               <a href="#" title="매거진">매거진</a>
             </li>
           </ul>
+          <div class="sns_nav">
+            <a href="#" title="더툴랩 인스타그램 페이지 바로가기"><span class="fab fa-instagram"></span></a>
+            <a href="#" title="더툴랩 페이스북 페이지 바로가기"><span class="fab fa-facebook-f"></span></a>
+            <a href="#" title="더툴랩 네이버 블로그 페이지 바로가기"><span class="fa-sharp fas fa-n"></span></a>
+          </div>
         </nav>
+        <span class="fas fa-close"></span>
+        </div>
 
         <nav class="lnb">
           <a href="search" title="검색페이지로 이동하기">
@@ -85,22 +95,22 @@
       <h2>메인슬라이드</h2>
         <div class="swiper-wrapper">
           <div class="swiper-slide slide1">
-            <span class="b_text">소중한 브러쉬 더 오래, 새것처럼<br>
+            <span class="b_text">소중한 브러쉬 <br>더 오래, 새것처럼<br>
               ‘툴리스트가 알려주는 <br>브러쉬 세척의 모든 것’</span>
             <a href="#" title="툴리스트가 알려주는 브러쉬 세척의 모든 것">
               <img src="./images/benner_s_1.jpg" alt="슬라이드 이미지1">
             </a>
           </div>
           <div class="swiper-slide slide2">
-            <span class="b_text">메이크업, 이것만 있으면 뚝딱!<br>
-              풀메이크업을 위한 브러쉬 세트 출시</span>
+            <span class="b_text">메이크업, <br>이것만 있으면 뚝딱!<br>
+              풀메이크업을 위한 <br>브러쉬 세트 출시</span>
             <a href="#" title="풀메이크업을 위한 브러쉬 세트 출시">
               <img src="./images/benner_s_2.jpg" alt="슬라이드 이미지2">
             </a>
           </div>
           <div class="swiper-slide slide3">
-            <span class="b_text">메이크업 아티스트들의 필수템<br>
-              포인트 섀도우와 아이라인 표현을 동시에</span>
+            <span class="b_text">메이크업 아티스트들의 <br>필수템<br>
+              포인트 섀도우와 <br>아이라인 표현을 동시에</span>
             <a href="#" title="포인트 섀도우와 아이라인 표현을 동시에">
               <img src="./images/benner_s_3.jpg" alt="슬라이드 이미지3">
             </a>
@@ -158,56 +168,56 @@
     <article class="best">
       <h2>베스트</h2>
       <div class="b_wrap">
-      <div class="b_inner">
-      <ul class="b_list">
-        <li>
-          <a href="#" title="상품1 상세페이지로 바로가기">
-            <h3>해피림 프로페셔널 풀페이스 키트 모음 (12종 택1)</h3>
-            <div>
-              <img src="./images/best1.jpg" alt="베스트상품 이미지1">
-            </div>
-            <span>해피림 아티스트가 선정한 실용적인 풀메이크업 키트</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" title="상품2 상세페이지로 바로가기">
-            <h3>롱래스팅 텐션 퍼프 듀오</h3>
-            <div>
-              <img src="./images/best2.jpg" alt="베스트상품 이미지2">
-            </div>
-            <span>남다른 텐션감과 매끈한 질감의 촉촉 텐션 퍼프</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" title="상품3 상세페이지로 바로가기">
-            <h3>101 멀티태스커 3종</h3>
-            <div>
-              <img src="./images/best3.jpg" alt="베스트상품 이미지3">
-            </div>
-            <span>24시간 지속되는 완벽 밀착 베이스 완성</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" title="상품4 상세페이지로 바로가기">
-            <h3>초밀착 커버 듀오</h3>
-            <div>
-              <img src="./images/best4.jpg" alt="베스트상품 이미지4">
-            </div>
-            <span>베이스의 사각지대를 커버하는 브러쉬와 얇고 고른 밀착 커버를 위한 퍼프</span>
-          </a>
-        </li>
-      </ul>
-      <span class="fas fa-chevron-left"></span>
-      <span class="fas fa-chevron-right"></span>
-      </div>
+        <div class="b_inner">
+          <ul class="b_list">
+            <li>
+              <a href="#" title="상품1 상세페이지로 바로가기">
+                <h3>해피림 프로페셔널 풀페이스 키트 모음 (12종 택1)</h3>
+                <div>
+                  <img src="./images/best1.jpg" alt="베스트상품 이미지1">
+                </div>
+                <span>해피림 아티스트가 선정한 실용적인 풀메이크업 키트</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" title="상품2 상세페이지로 바로가기">
+                <h3>롱래스팅 텐션 퍼프 듀오</h3>
+                <div>
+                  <img src="./images/best2.jpg" alt="베스트상품 이미지2">
+                </div>
+                <span>남다른 텐션감과 매끈한 질감의 촉촉 텐션 퍼프</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" title="상품3 상세페이지로 바로가기">
+                <h3>101 멀티태스커 3종</h3>
+                <div>
+                  <img src="./images/best3.jpg" alt="베스트상품 이미지3">
+                </div>
+                <span>24시간 지속되는 완벽 밀착 베이스 완성</span>
+              </a>
+            </li>
+            <li>
+              <a href="#" title="상품4 상세페이지로 바로가기">
+                <h3>초밀착 커버 듀오</h3>
+                <div>
+                  <img src="./images/best4.jpg" alt="베스트상품 이미지4">
+                </div>
+                <span>베이스의 사각지대를 커버하는 브러쉬와 얇고 고른 밀착 커버를 위한 퍼프</span>
+              </a>
+            </li>
+          </ul>
+        <span class="fas fa-chevron-left"></span>
+        <span class="fas fa-chevron-right"></span>
+        </div>
       </div>
       <a href="#" title="베스트 제품 페이지 바로가기" class="btn01">더보기</a>
     </article>
     
     <article class="instagram">
       <h2>인스타그램</h2>
-      <ul>
-        <li>
+      <ul class="gallery">
+        <li class="on_g">
           <a href="#" title="인스타그램1 페이지 바로가기">
             <img src="./images/instar01.jpg" alt="인스타그램 이미지1">
           </a>
@@ -287,6 +297,7 @@
         </nav>
         <p>대표자명:백수경 주소:(04785) 서울특별시 성동구 뚝섬로17가길 48 (성수동2가) 성수에이원지식산업센터 1005호 사업자등록번호:560-81-01515 통신판매번호:제2019-서울성동-02042호 상호:주식회사 티티앨</p>
         <a href="#" title="사업자 정보확인" class="ftc_btn">사업자정보확인</a>
+        <p>Copyright © 더툴랩 All rights reserved.</p>
       </div>
     </div>
   </footer>
@@ -294,8 +305,17 @@
   <!--제이쿼리 라이브러리-->
   <script src="./script/jquery-3.7.1.js"></script>
   <script>
-    //슬라이드 서식 시작
+
     $(document).ready(function(){
+      $(window).resize(function(){
+        w_width = $(window).innerWidth();
+        console.log(w_width)
+
+      }).resize;
+
+
+
+    //헤더 서식
       $('.gnb > ul > li > a').mouseenter(function(){
         $('.sub').stop().slideDown();
         $('.g_box').stop().slideDown();
@@ -304,7 +324,18 @@
         $('.sub').stop().slideUp();
         $('.g_box').stop().slideUp();
       });
+
+      //태블릿 헤더 서식
+      $('.lnb > .fa-bars').click(function(){
+        $('.sub').stop().slideToggle();
+        $('.g_box').stop().slideToggle();
+      });
+
+      //모바일 헤더 서식
+
+
       
+    //슬라이드 서식 시작
       const l_btn = $('.fa-chevron-left');
       const r_btn = $('.fa-chevron-right');
       const c_btn = $('.swiper-wrapper .ctrl_btn > li');
@@ -373,8 +404,22 @@
         Timer = setInterval(fadeInOut, 5000);
       });
 
+      //태블릿 베스트 서식
 
-      //탑버튼,헤더 고정 서식
+      $('.b_inner .fa-chevron-left').click(function(){
+
+      });
+      $('.b_inner .fa-chevron-right').click(function(){
+        
+
+      });
+
+
+      //태블릿 인스타그램 서식
+
+      
+
+      //탑버튼 고정 서식
         let scrollTop;
         /*window.addEventListener('scroll',function(){
           const t_btn = document.getElementById('top_btn');

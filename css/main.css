@@ -3,6 +3,8 @@
 .lnb > .fa-bars{display:none;}
 .product, .best, .instagram{margin:80px auto;}
 
+.g_wrap > .sns_nav{display:none;}
+
 .main_slide{
   width:100%;
 }
@@ -37,7 +39,7 @@
   color:#333;
   line-height:2.81rem;
 }
-.slide1 > .b_text > br:last-child{display:none;}
+.swiper-slide > .b_text > br:not(:nth-child(2)){display:none;}
 @media screen and (min-width:1200px) and (max-width:1300px){
   .slide1 > .b_text > br:last-child{
     display:block;
@@ -97,7 +99,6 @@
   background-color:#000;
   background-image:url(../images/brandstory1.jpg);
   background-size:130%;
-  background-repeat:no-repeat;
   background-attachment:fixed;
   position:relative;
   margin-top:0;
@@ -205,7 +206,7 @@
   width:1060px;
   margin:0 auto;
   display:flex;
-  justify-content:space-around;
+  justify-content:space-between;
 }
 .b_list > li{
   width:250px;
