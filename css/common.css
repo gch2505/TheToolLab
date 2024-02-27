@@ -76,6 +76,7 @@ h2{
 .sub a:hover{
   font-weight:500;
   text-decoration:underline;
+  color:#752329;
 }
 .lnb{
   padding:7px;
@@ -164,11 +165,9 @@ h2{
 }
 .f_inner .ftc_btn{
   color:#fff;
-  font-size:12px;
-  background:#EB7C7C;
-  padding:2px 5px;
+  text-decoration: underline;
+  font-size:14px;
 }
-.f_inner > p:last-child{text-align: center;}
 
 /*버튼 공통서식*/
 .btn01{
@@ -191,7 +190,7 @@ h2{
 
 /*top버튼 공통서식*/
 #top_btn{
-  display:block;
+  display:none;
   position:fixed;
   bottom:15px; right:15px;
   background:#EB7C7C;
